@@ -1,0 +1,48 @@
+{
+  "user": {
+    "userId": "ABwppHGJt4kqJFTh4mpvLBv7k1FFHU-2tZ0HB24JA8gbobNmJAEJUGET9E0I-ZuTIwTq6zd3a3d4XJLd17XNH_as",
+    "locale": "en-US",
+    "lastSeen": "2018-10-02T08:16:34Z"
+  },
+  "conversation": {
+    "conversationId": "ABwppHEso7D6g767i0AkJ5-3o9wU0T3NbXHSts9DbQjOldYFlaOD18Gq7V3nP9rJ4cJPMG-ELbKfYQXJbFm9Aa9O",
+    "type": "ACTIVE",
+    "conversationToken": "[]"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "KEYBOARD",
+          "query": "open chrome"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "open chrome",
+          "textValue": "open chrome"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      }
+    ]
+  },
+  "isInSandbox": true,
+  "requestType": "SIMULATOR"
+}

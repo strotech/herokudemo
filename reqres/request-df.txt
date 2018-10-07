@@ -1,0 +1,29 @@
+{
+  "responseId": "25f74535-24f7-4a22-b58d-ea79166883f2",
+  "queryResult": {
+    "queryText": "hey",
+    "action": "input.welcome",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Hello! How can I help you?",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Hello! How can I help you?"
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/webautomator-5079f/agent/intents/cf718333-4766-4475-8b01-5b6ee1b0b200",
+      "displayName": "Default Welcome Intent"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "payload": {}
+  },
+  "session": "projects/webautomator-5079f/agent/sessions/54680687-77e7-6391-97d2-04f1a327a352"
+}
